@@ -1,9 +1,10 @@
 package com.course.model;
 
 import lombok.Data;
+import org.json.JSONObject;
 
 @Data
-public class User {
+public class User extends JSONObject {
 
     private int id;
     private String userName;
